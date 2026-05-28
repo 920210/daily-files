@@ -1,5 +1,5 @@
 # v2sub-collector Subscription
-# Updated: 2026-05-25 21:14:00
+# Updated: 2026-05-28 21:48:13
 mixed-port: 7890
 allow-lan: true
 mode: rule
@@ -79,6 +79,110 @@ proxies:
     sni: "www.nintendogames.net"
     skip-cert-verify: false
     udp: true
+  - name: "free-share-小白公益节点-韩国+KT电信数据中心"
+    type: "trojan"
+    server: "220.86.228.109"
+    port: 32603
+    password: "433e785b-2077-47f7-a43d-985f63dd18d1"
+    sni: "vpn.rnmcnm.com"
+    skip-cert-verify: false
+    udp: true
+  - name: "free-share-小白公益节点-日本|@ripaojiedian"
+    type: "trojan"
+    server: "13.231.225.85"
+    port: 4099
+    password: "BxceQaOe"
+    sni: "t.me%2Fripaojiedian"
+    skip-cert-verify: false
+    udp: true
+  - name: "free-share-小白公益节点-香港5|@ripaojiedian"
+    type: "trojan"
+    server: "18.162.145.230"
+    port: 11233
+    password: "BxceQaOe"
+    sni: "t.me/ripaojiedian"
+    skip-cert-verify: false
+    udp: true
+  - name: "free-share-小白公益节点-新加坡3|@ripaojiedian"
+    type: "trojan"
+    server: "35.78.121.219"
+    port: 39756
+    password: "BxceQaOe"
+    sni: "t.me%2Fripaojiedian"
+    skip-cert-verify: false
+    udp: true
+  - name: "free-share-小白公益节点-美国3|@ripaojiedian"
+    type: "trojan"
+    server: "43.206.155.159"
+    port: 2702
+    password: "BxceQaOe"
+    sni: "t.me/ripaojiedian"
+    skip-cert-verify: false
+    udp: true
+  - name: "free-share-小白公益节点-香港4|@ripaojiedian"
+    type: "trojan"
+    server: "54.168.196.137"
+    port: 4327
+    password: "BxceQaOe"
+    sni: "t.me/ripaojiedian"
+    skip-cert-verify: false
+    udp: true
+  - name: "free-share-小白公益节点-日本3|@ripaojiedian"
+    type: "trojan"
+    server: "16.163.29.124"
+    port: 11541
+    password: "f6d3aa07a52dbcedcb4731029e2fb6ae"
+    sni: "www.nintendogames.net"
+    skip-cert-verify: false
+    udp: true
+  - name: "free-share-小白公益节点-新加坡2|@ripaojiedian"
+    type: "trojan"
+    server: "16.163.29.124"
+    port: 3842
+    password: "f6d3aa07a52dbcedcb4731029e2fb6ae"
+    sni: "www.nintendogames.net"
+    skip-cert-verify: false
+    udp: true
+  - name: "free-share-小白公益节点-日本2|@ripaojiedian"
+    type: "trojan"
+    server: "16.163.29.124"
+    port: 8066
+    password: "f6d3aa07a52dbcedcb4731029e2fb6ae"
+    sni: "www.nintendogames.net"
+    skip-cert-verify: false
+    udp: true
+  - name: "free-share-小白公益节点-香港3|@ripaojiedian"
+    type: "trojan"
+    server: "52.69.114.14"
+    port: 2008
+    password: "f6d3aa07a52dbcedcb4731029e2fb6ae"
+    sni: "www.nintendogames.net"
+    skip-cert-verify: false
+    udp: true
+  - name: "free-share-小白公益节点-美国2|@ripaojiedian"
+    type: "trojan"
+    server: "52.69.114.14"
+    port: 2663
+    password: "f6d3aa07a52dbcedcb4731029e2fb6ae"
+    sni: "www.nintendogames.net"
+    skip-cert-verify: false
+    udp: true
+  - name: "free-share-小白公益节点-美国|@ripaojiedian"
+    type: "trojan"
+    server: "95.40.114.115"
+    port: 2663
+    password: "f6d3aa07a52dbcedcb4731029e2fb6ae"
+    sni: "www.nintendogames.net"
+    skip-cert-verify: false
+    udp: true
+  - name: "free-share-小白公益节点-新加坡|@ripaojiedian"
+    type: "trojan"
+    server: "95.40.114.115"
+    port: 4840
+    password: "f6d3aa07a52dbcedcb4731029e2fb6ae"
+    sni: "www.nintendogames.net"
+    skip-cert-verify: false
+    udp: true
   - name: "free-share-小白公益节点-🇺🇸 美国3|@stairnode"
     type: "trojan"
     server: "92.243.75.49"
@@ -87,6 +191,72 @@ proxies:
     sni: "hsdgbuys.pages.dev"
     skip-cert-verify: false
     udp: true
+  - name: "free-share-小白公益节点-美国+V2CROSS.COM"
+    type: "vless"
+    server: "96.47.238.103"
+    port: 443
+    uuid: "6b2bd003-b3fd-4208-83f3-197f9a4d2297"
+    network: "raw"
+    tls: true
+    skip-cert-verify: false
+    udp: true
+    client-fingerprint: "chrome"
+    servername: "www.cloudflare.com"
+    reality-opts: {public-key: "EaaPtT7jhK6wTiZKklE7uHMjlege0ZN6TBqgojca2yg", short-id: "5a626ceb"}
+  - name: "free-share-小白公益节点-英国+South+Cheshire+College"
+    type: "vless"
+    server: "194.238.57.104"
+    port: 443
+    uuid: "8046e3a1-83a7-4155-86e4-374153fe66f3"
+    tls: true
+    skip-cert-verify: false
+    udp: true
+    client-fingerprint: "chrome"
+    servername: "www.icloud.com"
+    reality-opts: {public-key: "56RJlIcxwncUs5m9QSfd3waHxm6vJFBKso5IkMSsyCA", short-id: "5d"}
+  - name: "free-share-小白公益节点-保加利亚+V2CROSS.COM"
+    type: "vless"
+    server: "87.120.93.243"
+    port: 443
+    uuid: "91e120bc-159a-4390-b4e1-197b19602ea0"
+    tls: true
+    skip-cert-verify: false
+    udp: true
+    client-fingerprint: "qq"
+    servername: "sub.sbrf-cdn342.ru"
+  - name: "free-share-小白公益节点-德国+V2CROSS.COM"
+    type: "vless"
+    server: "de.sbrf-cdn342.ru"
+    port: 443
+    uuid: "91e120bc-159a-4390-b4e1-197b19602ea0"
+    tls: true
+    skip-cert-verify: false
+    udp: true
+    client-fingerprint: "chrome"
+    servername: "sub.sbrf-cdn342.ru"
+  - name: "free-share-小白公益节点-美国+CloudFlare节点"
+    type: "vless"
+    server: "172.67.74.136"
+    port: 443
+    uuid: "ae0dd58e-e222-40bf-84ae-365a97532737"
+    network: "ws"
+    tls: true
+    skip-cert-verify: false
+    udp: true
+    client-fingerprint: "chrome"
+    servername: "pagescm.freen17.cc.cd"
+    ws-opts: {headers: {Host: "pagescm.freen17.cc.cd"}, path: "/directoryfp=chrome"}
+  - name: "free-share-小白公益节点-俄罗斯+V2CROSS.COM"
+    type: "vless"
+    server: "85.234.114.53"
+    port: 22231
+    uuid: "afcac633-0e1a-46c3-bef2-cc01cc0097c8"
+    network: "raw"
+    tls: true
+    skip-cert-verify: false
+    udp: true
+    client-fingerprint: "edge"
+    servername: "r1.mizulina.top"
 
 proxy-groups:
   - name: "小白公益节点"
@@ -101,7 +271,26 @@ proxy-groups:
       - "free-share-小白公益节点-🇺🇸 美国|@stairnode"
       - "free-share-小白公益节点-🇯🇵 日本3|@stairnode"
       - "free-share-小白公益节点-🇸🇬 新加坡2|@stairnode"
+      - "free-share-小白公益节点-韩国+KT电信数据中心"
+      - "free-share-小白公益节点-日本|@ripaojiedian"
+      - "free-share-小白公益节点-香港5|@ripaojiedian"
+      - "free-share-小白公益节点-新加坡3|@ripaojiedian"
+      - "free-share-小白公益节点-美国3|@ripaojiedian"
+      - "free-share-小白公益节点-香港4|@ripaojiedian"
+      - "free-share-小白公益节点-日本3|@ripaojiedian"
+      - "free-share-小白公益节点-新加坡2|@ripaojiedian"
+      - "free-share-小白公益节点-日本2|@ripaojiedian"
+      - "free-share-小白公益节点-香港3|@ripaojiedian"
+      - "free-share-小白公益节点-美国2|@ripaojiedian"
+      - "free-share-小白公益节点-美国|@ripaojiedian"
+      - "free-share-小白公益节点-新加坡|@ripaojiedian"
       - "free-share-小白公益节点-🇺🇸 美国3|@stairnode"
+      - "free-share-小白公益节点-美国+V2CROSS.COM"
+      - "free-share-小白公益节点-英国+South+Cheshire+College"
+      - "free-share-小白公益节点-保加利亚+V2CROSS.COM"
+      - "free-share-小白公益节点-德国+V2CROSS.COM"
+      - "free-share-小白公益节点-美国+CloudFlare节点"
+      - "free-share-小白公益节点-俄罗斯+V2CROSS.COM"
       - DIRECT
   - name: "自动选择-小白公益节点"
     type: select
@@ -114,7 +303,26 @@ proxy-groups:
       - "free-share-小白公益节点-🇺🇸 美国|@stairnode"
       - "free-share-小白公益节点-🇯🇵 日本3|@stairnode"
       - "free-share-小白公益节点-🇸🇬 新加坡2|@stairnode"
+      - "free-share-小白公益节点-韩国+KT电信数据中心"
+      - "free-share-小白公益节点-日本|@ripaojiedian"
+      - "free-share-小白公益节点-香港5|@ripaojiedian"
+      - "free-share-小白公益节点-新加坡3|@ripaojiedian"
+      - "free-share-小白公益节点-美国3|@ripaojiedian"
+      - "free-share-小白公益节点-香港4|@ripaojiedian"
+      - "free-share-小白公益节点-日本3|@ripaojiedian"
+      - "free-share-小白公益节点-新加坡2|@ripaojiedian"
+      - "free-share-小白公益节点-日本2|@ripaojiedian"
+      - "free-share-小白公益节点-香港3|@ripaojiedian"
+      - "free-share-小白公益节点-美国2|@ripaojiedian"
+      - "free-share-小白公益节点-美国|@ripaojiedian"
+      - "free-share-小白公益节点-新加坡|@ripaojiedian"
       - "free-share-小白公益节点-🇺🇸 美国3|@stairnode"
+      - "free-share-小白公益节点-美国+V2CROSS.COM"
+      - "free-share-小白公益节点-英国+South+Cheshire+College"
+      - "free-share-小白公益节点-保加利亚+V2CROSS.COM"
+      - "free-share-小白公益节点-德国+V2CROSS.COM"
+      - "free-share-小白公益节点-美国+CloudFlare节点"
+      - "free-share-小白公益节点-俄罗斯+V2CROSS.COM"
       - DIRECT
 
 rules:
