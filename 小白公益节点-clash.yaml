@@ -1,0 +1,651 @@
+# v2sub-collector Subscription
+# Updated: 2026-05-28 22:06:16
+mixed-port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+
+proxies:
+  - name: "小白公益节点-小白公益节点-🇭🇰 香港6|@stairnode"
+    type: "trojan"
+    server: "126.47.92.160"
+    port: 443
+    password: "253bc477d4e43c209f2d427272968280"
+    sni: "fe2.update.microsoft.com"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-🇭🇰 香港4|@stairnode"
+    type: "trojan"
+    server: "221.128.195.221"
+    port: 4419
+    password: "253bc477d4e43c209f2d427272968280"
+    sni: "www.nintendogames.net"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-🇯🇵 日本2|@stairnode"
+    type: "trojan"
+    server: "36.156.102.84"
+    port: 1806
+    password: "253bc477d4e43c209f2d427272968280"
+    sni: "www.nintendogames.net"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-🇸🇬 新加坡|@stairnode"
+    type: "trojan"
+    server: "36.156.102.84"
+    port: 2173
+    password: "253bc477d4e43c209f2d427272968280"
+    sni: "www.nintendogames.net"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-🇺🇸 美国2|@stairnode"
+    type: "trojan"
+    server: "36.156.102.84"
+    port: 2381
+    password: "253bc477d4e43c209f2d427272968280"
+    sni: "fe2.update.microsoft.com"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-🇺🇸 美国|@stairnode"
+    type: "trojan"
+    server: "36.156.102.84"
+    port: 24673
+    password: "253bc477d4e43c209f2d427272968280"
+    sni: "fe2.update.microsoft.com"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-🇯🇵 日本3|@stairnode"
+    type: "trojan"
+    server: "36.156.102.84"
+    port: 3160
+    password: "253bc477d4e43c209f2d427272968280"
+    sni: "www.nintendogames.net"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-🇸🇬 新加坡2|@stairnode"
+    type: "trojan"
+    server: "36.156.102.84"
+    port: 5321
+    password: "253bc477d4e43c209f2d427272968280"
+    sni: "www.nintendogames.net"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 198"
+    type: "trojan"
+    server: "152.67.160.174"
+    port: 443
+    password: "54080134-2cba-4535-8599-95650bd9aa54"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 39"
+    type: "trojan"
+    server: "hnm.xiaohouzi.club"
+    port: 47555
+    password: "64de1de7-e3bb-3dc4-ab04-d1e601e18ac5"
+    sni: "$$$au02.xiaohouzi.club"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 906"
+    type: "trojan"
+    server: "211.72.35.156"
+    port: 3389
+    password: "7b06d22a8a7c764f"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 84"
+    type: "trojan"
+    server: "135.148.148.4"
+    port: 80
+    password: "800eb26c-cd0c-4269-aae7-e63d75de4edd"
+    sni: "us3.trojanvh.xyz"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 291"
+    type: "trojan"
+    server: "147.45.69.68"
+    port: 8443
+    password: "8r<[9'l6hAO#8ZQi"
+    sni: "Koma-YT.PAGeS.Dev"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 161"
+    type: "trojan"
+    server: "193.109.84.103"
+    port: 2053
+    password: "8r<[9'l6hAO#8ZQi"
+    sni: "Koma-YT.PAGeS.Dev"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 159"
+    type: "trojan"
+    server: "31.220.4.189"
+    port: 2053
+    password: "8r<[9'l6hAO#8ZQi"
+    sni: "Koma-YT.PAGeS.Dev"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 2"
+    type: "trojan"
+    server: "31.57.93.4"
+    port: 8443
+    password: "8r<[9'l6hAO#8ZQi"
+    sni: "Koma-YT.PAGeS.Dev"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 637"
+    type: "trojan"
+    server: "93.183.126.165"
+    port: 2053
+    password: "8r<[9'l6hAO#8ZQi"
+    sni: "Koma-YT.PAGeS.Dev"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 973"
+    type: "trojan"
+    server: "jp03a.roc-taiwan.net.ua"
+    port: 65013
+    password: "96983eb4-c8f1-316e-ab00-500014ed3d8b"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 857"
+    type: "trojan"
+    server: "jp04a.roc-taiwan.net.ua"
+    port: 65014
+    password: "96983eb4-c8f1-316e-ab00-500014ed3d8b"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 864"
+    type: "trojan"
+    server: "official.taipeicitygovernment.kiev.ua"
+    port: 8443
+    password: "96983eb4-c8f1-316e-ab00-500014ed3d8b"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 948"
+    type: "trojan"
+    server: "official.tokyometropolis.chernigov.ua"
+    port: 2053
+    password: "96983eb4-c8f1-316e-ab00-500014ed3d8b"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-日本|@ripaojiedian"
+    type: "trojan"
+    server: "13.231.225.85"
+    port: 4099
+    password: "BxceQaOe"
+    sni: "t.me%2Fripaojiedian"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-香港5|@ripaojiedian"
+    type: "trojan"
+    server: "18.162.145.230"
+    port: 11233
+    password: "BxceQaOe"
+    sni: "t.me/ripaojiedian"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-新加坡3|@ripaojiedian"
+    type: "trojan"
+    server: "35.78.121.219"
+    port: 39756
+    password: "BxceQaOe"
+    sni: "t.me%2Fripaojiedian"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-美国3|@ripaojiedian"
+    type: "trojan"
+    server: "43.206.155.159"
+    port: 2702
+    password: "BxceQaOe"
+    sni: "t.me/ripaojiedian"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-香港4|@ripaojiedian"
+    type: "trojan"
+    server: "54.168.196.137"
+    port: 4327
+    password: "BxceQaOe"
+    sni: "t.me/ripaojiedian"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 535"
+    type: "trojan"
+    server: "select-marmoset.rooster465.autos"
+    port: 443
+    password: "IL37892054"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 484"
+    type: "trojan"
+    server: "zz6.91js.pw"
+    port: 10051
+    password: "a13820c547fa34c5c45515c12f0cd576"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 373"
+    type: "trojan"
+    server: "211.72.35.152"
+    port: 3389
+    password: "b84d16a244460e09"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 548"
+    type: "trojan"
+    server: "138.2.45.243"
+    port: 443
+    password: "c19d1432-8b3e-4818-8837-3d160cf65908"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 63"
+    type: "trojan"
+    server: "5.180.78.22"
+    port: 443
+    password: "d30ab83dbde4480082048fb315bedebd"
+    sni: "5.180.78.22"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 956"
+    type: "trojan"
+    server: "129.146.190.42"
+    port: 443
+    password: "dbf9bf9c-2c3f-474a-8031-d4c00666a989"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 737"
+    type: "trojan"
+    server: "135.148.148.4"
+    port: 80
+    password: "ee2bccd3-0f30-42d4-86d6-3d393ad230bd"
+    sni: "us3.trojanvh.xyz"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 921"
+    type: "trojan"
+    server: "16.163.157.10"
+    port: 6604
+    password: "f6d3aa07a52dbcedcb4731029e2fb6ae"
+    sni: "www.nintendogames.net"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-日本3|@ripaojiedian"
+    type: "trojan"
+    server: "16.163.29.124"
+    port: 11541
+    password: "f6d3aa07a52dbcedcb4731029e2fb6ae"
+    sni: "www.nintendogames.net"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-新加坡2|@ripaojiedian"
+    type: "trojan"
+    server: "16.163.29.124"
+    port: 3842
+    password: "f6d3aa07a52dbcedcb4731029e2fb6ae"
+    sni: "www.nintendogames.net"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-日本2|@ripaojiedian"
+    type: "trojan"
+    server: "16.163.29.124"
+    port: 8066
+    password: "f6d3aa07a52dbcedcb4731029e2fb6ae"
+    sni: "www.nintendogames.net"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 139"
+    type: "trojan"
+    server: "16.163.29.124"
+    port: 8066
+    password: "f6d3aa07a52dbcedcb4731029e2fb6ae"
+    sni: "www.nintendogames.net"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-香港3|@ripaojiedian"
+    type: "trojan"
+    server: "52.69.114.14"
+    port: 2008
+    password: "f6d3aa07a52dbcedcb4731029e2fb6ae"
+    sni: "www.nintendogames.net"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 125"
+    type: "trojan"
+    server: "52.69.114.14"
+    port: 2008
+    password: "f6d3aa07a52dbcedcb4731029e2fb6ae"
+    sni: "www.nintendogames.net"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-美国2|@ripaojiedian"
+    type: "trojan"
+    server: "52.69.114.14"
+    port: 2663
+    password: "f6d3aa07a52dbcedcb4731029e2fb6ae"
+    sni: "www.nintendogames.net"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-美国|@ripaojiedian"
+    type: "trojan"
+    server: "95.40.114.115"
+    port: 2663
+    password: "f6d3aa07a52dbcedcb4731029e2fb6ae"
+    sni: "www.nintendogames.net"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-新加坡|@ripaojiedian"
+    type: "trojan"
+    server: "95.40.114.115"
+    port: 4840
+    password: "f6d3aa07a52dbcedcb4731029e2fb6ae"
+    sni: "www.nintendogames.net"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 58"
+    type: "trojan"
+    server: "211.76.176.98"
+    port: 19128
+    password: "gcuCpQfaiVeDBdWG"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-美国+CloudFlare节点"
+    type: "trojan"
+    server: "104.18.32.47"
+    port: 443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 197"
+    type: "trojan"
+    server: "34.253.231.7"
+    port: 22222
+    password: "telegram-id-directvpn"
+    sni: "trj.rollingnext.co.uk"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 506"
+    type: "trojan"
+    server: "3.249.15.72"
+    port: 22222
+    password: "telegram-id-privatevpns"
+    sni: "trj.rollingnext.co.uk"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 936"
+    type: "trojan"
+    server: "3.8.123.26"
+    port: 22222
+    password: "telegram-id-privatevpns"
+    sni: "trj.rollingnext.co.uk"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-🇺🇸 美国3|@stairnode"
+    type: "trojan"
+    server: "92.243.75.49"
+    port: 2087
+    password: "wb6368"
+    sni: "hsdgbuys.pages.dev"
+    skip-cert-verify: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-美国+宾夕法尼亚州匹兹堡大学"
+    type: "vless"
+    server: "130.49.219.126"
+    port: 8443
+    uuid: "2ee2b77f-e4cd-4e5d-af22-f9d919eeadd5"
+    tls: true
+    skip-cert-verify: false
+    udp: true
+    client-fingerprint: "chrome"
+    servername: "at16.fastlanehosting.ru"
+  - name: "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 95"
+    type: "vless"
+    server: "93.115.25.153"
+    port: 443
+    uuid: "31969cf4-c1bb-4a3e-b42b-574dfb271c73"
+    tls: true
+    skip-cert-verify: false
+    udp: true
+    servername: "googdas.scroogethebest.com"
+    reality-opts: {public-key: "xwUK0ffpbKZ5_o_vXhZ8ErRDqvw2iVnRVSlZ-Vonkxo", short-id: "132c271e21324e36"}
+  - name: "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 15"
+    type: "vless"
+    server: "152.233.28.198"
+    port: 8443
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    tls: true
+    skip-cert-verify: false
+    udp: true
+    servername: "uk1.fromblancwithlove.com"
+  - name: "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 226"
+    type: "vless"
+    server: "159.223.209.139"
+    port: 46964
+    uuid: "4bb35928-40bb-4bf3-95f1-9efdc4169147"
+    tls: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 611"
+    type: "vless"
+    server: "narrow-passenger.oneeat.co"
+    port: 80
+    uuid: "5a12794b-2125-46d7-a748-927a989faa04"
+    network: "ws"
+    tls: false
+    udp: true
+    ws-opts: {path: "/"}
+  - name: "小白公益节点-小白公益节点-美国+V2CROSS.COM"
+    type: "vless"
+    server: "96.47.238.103"
+    port: 443
+    uuid: "6b2bd003-b3fd-4208-83f3-197f9a4d2297"
+    network: "raw"
+    tls: true
+    skip-cert-verify: false
+    udp: true
+    client-fingerprint: "chrome"
+    servername: "www.cloudflare.com"
+    reality-opts: {public-key: "EaaPtT7jhK6wTiZKklE7uHMjlege0ZN6TBqgojca2yg", short-id: "5a626ceb"}
+  - name: "小白公益节点-小白公益节点-立陶宛+V2CROSS.COM"
+    type: "vless"
+    server: "84.32.22.143"
+    port: 443
+    uuid: "91a3f712-c4e0-42a0-9475-bdd551a06e73"
+    tls: true
+    skip-cert-verify: false
+    udp: true
+    client-fingerprint: "random"
+    servername: "maps.apple.com"
+    reality-opts: {public-key: "fS59W37_i8457GqkbB9_kdCfLCtWbl14qmVRnm2ty2I", short-id: "2da4299da566b7"}
+  - name: "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 50"
+    type: "vless"
+    server: "104.17.121.71"
+    port: 443
+    uuid: "ae0dd58e-e222-40bf-84ae-365a97532737"
+    network: "ws"
+    tls: true
+    skip-cert-verify: false
+    udp: true
+    servername: "pagescm.freen34.cc.cd"
+    ws-opts: {headers: {Host: "pagescm.freen34.cc.cd"}, path: "/question/avatar/hot"}
+  - name: "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 238"
+    type: "vless"
+    server: "nodc.bazarkha.sbs"
+    port: 6003
+    uuid: "b3138f88-8845-41f7-8250-6eaa30be0110"
+    tls: false
+    udp: true
+  - name: "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 222"
+    type: "vless"
+    server: "pqh27v4.waipdirect.shop"
+    port: 8880
+    uuid: "e4824193-4f54-453b-d037-88368e85ef0e"
+    network: "grpc"
+    tls: false
+    udp: true
+    grpc-opts: {}
+  - name: "小白公益节点-小白公益节点-俄罗斯+V2CROSS.COM"
+    type: "vless"
+    server: "77.73.238.191"
+    port: 16622
+    uuid: "f2e9df1b-e0ba-4b37-a301-6aab8662c926"
+    tls: true
+    skip-cert-verify: false
+    udp: true
+    client-fingerprint: "chrome"
+    servername: "yahoo.com"
+    reality-opts: {public-key: "E5N_ckakvqgTOjiQ6Rmuwz1fchiT1-J3tH4cbzcH_GQ", short-id: "1c01d60ea915"}
+  - name: "小白公益节点-小白公益节点-俄罗斯+V2CROSS.COM-2"
+    type: "vless"
+    server: "194.226.169.36"
+    port: 443
+    uuid: "fae3277c-0541-4ae9-bbbb-8247453ea652"
+    tls: true
+    skip-cert-verify: false
+    udp: true
+    client-fingerprint: "chrome"
+    servername: "yahoo.com"
+    reality-opts: {public-key: "i4Mx_tDND0Xxac3WyA7HgT9rvXdZlXpm5m1EGiQF-Uk", short-id: "b8aa"}
+
+proxy-groups:
+  - name: "小白公益节点"
+    type: select
+    proxies:
+      - "自动选择-小白公益节点"
+      - "小白公益节点-小白公益节点-🇭🇰 香港6|@stairnode"
+      - "小白公益节点-小白公益节点-🇭🇰 香港4|@stairnode"
+      - "小白公益节点-小白公益节点-🇯🇵 日本2|@stairnode"
+      - "小白公益节点-小白公益节点-🇸🇬 新加坡|@stairnode"
+      - "小白公益节点-小白公益节点-🇺🇸 美国2|@stairnode"
+      - "小白公益节点-小白公益节点-🇺🇸 美国|@stairnode"
+      - "小白公益节点-小白公益节点-🇯🇵 日本3|@stairnode"
+      - "小白公益节点-小白公益节点-🇸🇬 新加坡2|@stairnode"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 198"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 39"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 906"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 84"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 291"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 161"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 159"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 2"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 637"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 973"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 857"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 864"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 948"
+      - "小白公益节点-小白公益节点-日本|@ripaojiedian"
+      - "小白公益节点-小白公益节点-香港5|@ripaojiedian"
+      - "小白公益节点-小白公益节点-新加坡3|@ripaojiedian"
+      - "小白公益节点-小白公益节点-美国3|@ripaojiedian"
+      - "小白公益节点-小白公益节点-香港4|@ripaojiedian"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 535"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 484"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 373"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 548"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 63"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 956"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 737"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 921"
+      - "小白公益节点-小白公益节点-日本3|@ripaojiedian"
+      - "小白公益节点-小白公益节点-新加坡2|@ripaojiedian"
+      - "小白公益节点-小白公益节点-日本2|@ripaojiedian"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 139"
+      - "小白公益节点-小白公益节点-香港3|@ripaojiedian"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 125"
+      - "小白公益节点-小白公益节点-美国2|@ripaojiedian"
+      - "小白公益节点-小白公益节点-美国|@ripaojiedian"
+      - "小白公益节点-小白公益节点-新加坡|@ripaojiedian"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 58"
+      - "小白公益节点-小白公益节点-美国+CloudFlare节点"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 197"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 506"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 936"
+      - "小白公益节点-小白公益节点-🇺🇸 美国3|@stairnode"
+      - "小白公益节点-小白公益节点-美国+宾夕法尼亚州匹兹堡大学"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 95"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 15"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 226"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 611"
+      - "小白公益节点-小白公益节点-美国+V2CROSS.COM"
+      - "小白公益节点-小白公益节点-立陶宛+V2CROSS.COM"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 50"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 238"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 222"
+      - "小白公益节点-小白公益节点-俄罗斯+V2CROSS.COM"
+      - "小白公益节点-小白公益节点-俄罗斯+V2CROSS.COM-2"
+      - DIRECT
+  - name: "自动选择-小白公益节点"
+    type: select
+    proxies:
+      - "小白公益节点-小白公益节点-🇭🇰 香港6|@stairnode"
+      - "小白公益节点-小白公益节点-🇭🇰 香港4|@stairnode"
+      - "小白公益节点-小白公益节点-🇯🇵 日本2|@stairnode"
+      - "小白公益节点-小白公益节点-🇸🇬 新加坡|@stairnode"
+      - "小白公益节点-小白公益节点-🇺🇸 美国2|@stairnode"
+      - "小白公益节点-小白公益节点-🇺🇸 美国|@stairnode"
+      - "小白公益节点-小白公益节点-🇯🇵 日本3|@stairnode"
+      - "小白公益节点-小白公益节点-🇸🇬 新加坡2|@stairnode"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 198"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 39"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 906"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 84"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 291"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 161"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 159"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 2"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 637"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 973"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 857"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 864"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 948"
+      - "小白公益节点-小白公益节点-日本|@ripaojiedian"
+      - "小白公益节点-小白公益节点-香港5|@ripaojiedian"
+      - "小白公益节点-小白公益节点-新加坡3|@ripaojiedian"
+      - "小白公益节点-小白公益节点-美国3|@ripaojiedian"
+      - "小白公益节点-小白公益节点-香港4|@ripaojiedian"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 535"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 484"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 373"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 548"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 63"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 956"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 737"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 921"
+      - "小白公益节点-小白公益节点-日本3|@ripaojiedian"
+      - "小白公益节点-小白公益节点-新加坡2|@ripaojiedian"
+      - "小白公益节点-小白公益节点-日本2|@ripaojiedian"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 139"
+      - "小白公益节点-小白公益节点-香港3|@ripaojiedian"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 125"
+      - "小白公益节点-小白公益节点-美国2|@ripaojiedian"
+      - "小白公益节点-小白公益节点-美国|@ripaojiedian"
+      - "小白公益节点-小白公益节点-新加坡|@ripaojiedian"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 58"
+      - "小白公益节点-小白公益节点-美国+CloudFlare节点"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 197"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 506"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 936"
+      - "小白公益节点-小白公益节点-🇺🇸 美国3|@stairnode"
+      - "小白公益节点-小白公益节点-美国+宾夕法尼亚州匹兹堡大学"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 95"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 15"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 226"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 611"
+      - "小白公益节点-小白公益节点-美国+V2CROSS.COM"
+      - "小白公益节点-小白公益节点-立陶宛+V2CROSS.COM"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 50"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 238"
+      - "小白公益节点-小白公益节点-⚡ b2n.ir/v2ray-configs | 222"
+      - "小白公益节点-小白公益节点-俄罗斯+V2CROSS.COM"
+      - "小白公益节点-小白公益节点-俄罗斯+V2CROSS.COM-2"
+      - DIRECT
+
+rules:
+  - GEOIP,LAN,DIRECT
+  - MATCH,小白公益节点
