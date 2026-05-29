@@ -1,5 +1,5 @@
 # v2sub-collector Subscription
-# Updated: 2026-05-29 11:37:18
+# Updated: 2026-05-29 11:37:39
 mixed-port: 7890
 allow-lan: true
 mode: rule
