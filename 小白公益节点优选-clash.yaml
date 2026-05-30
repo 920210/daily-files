@@ -1,0 +1,242 @@
+# v2sub-collector Subscription
+# Updated: 2026-05-30 14:47:40
+mixed-port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+
+proxies:
+  - name: "小白公益节点优选-小白公益节点优选-CF-103.21.244.0"
+    type: "vless"
+    server: "103.21.244.0"
+    port: 443
+    uuid: "11111111-1111-4111-8111-111111111111"
+    network: "ws"
+    tls: true
+    skip-cert-verify: false
+    udp: true
+    client-fingerprint: "chrome"
+    servername: "example.pages.dev"
+    ws-opts: {headers: {Host: "example.pages.dev"}, path: "/"}
+  - name: "小白公益节点优选-小白公益节点优选-CF-103.22.200.0"
+    type: "vless"
+    server: "103.22.200.0"
+    port: 443
+    uuid: "11111111-1111-4111-8111-111111111111"
+    network: "ws"
+    tls: true
+    skip-cert-verify: false
+    udp: true
+    client-fingerprint: "chrome"
+    servername: "example.pages.dev"
+    ws-opts: {headers: {Host: "example.pages.dev"}, path: "/"}
+  - name: "小白公益节点优选-小白公益节点优选-CF-103.31.4.0"
+    type: "vless"
+    server: "103.31.4.0"
+    port: 443
+    uuid: "11111111-1111-4111-8111-111111111111"
+    network: "ws"
+    tls: true
+    skip-cert-verify: false
+    udp: true
+    client-fingerprint: "chrome"
+    servername: "example.pages.dev"
+    ws-opts: {headers: {Host: "example.pages.dev"}, path: "/"}
+  - name: "小白公益节点优选-小白公益节点优选-CF-104.16.0.0"
+    type: "vless"
+    server: "104.16.0.0"
+    port: 443
+    uuid: "11111111-1111-4111-8111-111111111111"
+    network: "ws"
+    tls: true
+    skip-cert-verify: false
+    udp: true
+    client-fingerprint: "chrome"
+    servername: "example.pages.dev"
+    ws-opts: {headers: {Host: "example.pages.dev"}, path: "/"}
+  - name: "小白公益节点优选-小白公益节点优选-CF-104.24.0.0"
+    type: "vless"
+    server: "104.24.0.0"
+    port: 443
+    uuid: "11111111-1111-4111-8111-111111111111"
+    network: "ws"
+    tls: true
+    skip-cert-verify: false
+    udp: true
+    client-fingerprint: "chrome"
+    servername: "example.pages.dev"
+    ws-opts: {headers: {Host: "example.pages.dev"}, path: "/"}
+  - name: "小白公益节点优选-小白公益节点优选-CF-108.162.192.0"
+    type: "vless"
+    server: "108.162.192.0"
+    port: 443
+    uuid: "11111111-1111-4111-8111-111111111111"
+    network: "ws"
+    tls: true
+    skip-cert-verify: false
+    udp: true
+    client-fingerprint: "chrome"
+    servername: "example.pages.dev"
+    ws-opts: {headers: {Host: "example.pages.dev"}, path: "/"}
+  - name: "小白公益节点优选-小白公益节点优选-CF-131.0.72.0"
+    type: "vless"
+    server: "131.0.72.0"
+    port: 443
+    uuid: "11111111-1111-4111-8111-111111111111"
+    network: "ws"
+    tls: true
+    skip-cert-verify: false
+    udp: true
+    client-fingerprint: "chrome"
+    servername: "example.pages.dev"
+    ws-opts: {headers: {Host: "example.pages.dev"}, path: "/"}
+  - name: "小白公益节点优选-小白公益节点优选-CF-141.101.64.0"
+    type: "vless"
+    server: "141.101.64.0"
+    port: 443
+    uuid: "11111111-1111-4111-8111-111111111111"
+    network: "ws"
+    tls: true
+    skip-cert-verify: false
+    udp: true
+    client-fingerprint: "chrome"
+    servername: "example.pages.dev"
+    ws-opts: {headers: {Host: "example.pages.dev"}, path: "/"}
+  - name: "小白公益节点优选-小白公益节点优选-CF-162.158.0.0"
+    type: "vless"
+    server: "162.158.0.0"
+    port: 443
+    uuid: "11111111-1111-4111-8111-111111111111"
+    network: "ws"
+    tls: true
+    skip-cert-verify: false
+    udp: true
+    client-fingerprint: "chrome"
+    servername: "example.pages.dev"
+    ws-opts: {headers: {Host: "example.pages.dev"}, path: "/"}
+  - name: "小白公益节点优选-小白公益节点优选-CF-172.64.0.0"
+    type: "vless"
+    server: "172.64.0.0"
+    port: 443
+    uuid: "11111111-1111-4111-8111-111111111111"
+    network: "ws"
+    tls: true
+    skip-cert-verify: false
+    udp: true
+    client-fingerprint: "chrome"
+    servername: "example.pages.dev"
+    ws-opts: {headers: {Host: "example.pages.dev"}, path: "/"}
+  - name: "小白公益节点优选-小白公益节点优选-CF-173.245.48.0"
+    type: "vless"
+    server: "173.245.48.0"
+    port: 443
+    uuid: "11111111-1111-4111-8111-111111111111"
+    network: "ws"
+    tls: true
+    skip-cert-verify: false
+    udp: true
+    client-fingerprint: "chrome"
+    servername: "example.pages.dev"
+    ws-opts: {headers: {Host: "example.pages.dev"}, path: "/"}
+  - name: "小白公益节点优选-小白公益节点优选-CF-188.114.96.0"
+    type: "vless"
+    server: "188.114.96.0"
+    port: 443
+    uuid: "11111111-1111-4111-8111-111111111111"
+    network: "ws"
+    tls: true
+    skip-cert-verify: false
+    udp: true
+    client-fingerprint: "chrome"
+    servername: "example.pages.dev"
+    ws-opts: {headers: {Host: "example.pages.dev"}, path: "/"}
+  - name: "小白公益节点优选-小白公益节点优选-CF-190.93.240.0"
+    type: "vless"
+    server: "190.93.240.0"
+    port: 443
+    uuid: "11111111-1111-4111-8111-111111111111"
+    network: "ws"
+    tls: true
+    skip-cert-verify: false
+    udp: true
+    client-fingerprint: "chrome"
+    servername: "example.pages.dev"
+    ws-opts: {headers: {Host: "example.pages.dev"}, path: "/"}
+  - name: "小白公益节点优选-小白公益节点优选-CF-197.234.240.0"
+    type: "vless"
+    server: "197.234.240.0"
+    port: 443
+    uuid: "11111111-1111-4111-8111-111111111111"
+    network: "ws"
+    tls: true
+    skip-cert-verify: false
+    udp: true
+    client-fingerprint: "chrome"
+    servername: "example.pages.dev"
+    ws-opts: {headers: {Host: "example.pages.dev"}, path: "/"}
+  - name: "小白公益节点优选-小白公益节点优选-CF-198.41.128.0"
+    type: "vless"
+    server: "198.41.128.0"
+    port: 443
+    uuid: "11111111-1111-4111-8111-111111111111"
+    network: "ws"
+    tls: true
+    skip-cert-verify: false
+    udp: true
+    client-fingerprint: "chrome"
+    servername: "example.pages.dev"
+    ws-opts: {headers: {Host: "example.pages.dev"}, path: "/"}
+
+proxy-groups:
+  - name: "小白公益节点优选"
+    type: select
+    proxies:
+      - "自动选择-小白公益节点优选"
+      - "小白公益节点优选-小白公益节点优选-CF-103.21.244.0"
+      - "小白公益节点优选-小白公益节点优选-CF-103.22.200.0"
+      - "小白公益节点优选-小白公益节点优选-CF-103.31.4.0"
+      - "小白公益节点优选-小白公益节点优选-CF-104.16.0.0"
+      - "小白公益节点优选-小白公益节点优选-CF-104.24.0.0"
+      - "小白公益节点优选-小白公益节点优选-CF-108.162.192.0"
+      - "小白公益节点优选-小白公益节点优选-CF-131.0.72.0"
+      - "小白公益节点优选-小白公益节点优选-CF-141.101.64.0"
+      - "小白公益节点优选-小白公益节点优选-CF-162.158.0.0"
+      - "小白公益节点优选-小白公益节点优选-CF-172.64.0.0"
+      - "小白公益节点优选-小白公益节点优选-CF-173.245.48.0"
+      - "小白公益节点优选-小白公益节点优选-CF-188.114.96.0"
+      - "小白公益节点优选-小白公益节点优选-CF-190.93.240.0"
+      - "小白公益节点优选-小白公益节点优选-CF-197.234.240.0"
+      - "小白公益节点优选-小白公益节点优选-CF-198.41.128.0"
+      - DIRECT
+  - name: "自动选择-小白公益节点优选"
+    type: select
+    proxies:
+      - "小白公益节点优选-小白公益节点优选-CF-103.21.244.0"
+      - "小白公益节点优选-小白公益节点优选-CF-103.22.200.0"
+      - "小白公益节点优选-小白公益节点优选-CF-103.31.4.0"
+      - "小白公益节点优选-小白公益节点优选-CF-104.16.0.0"
+      - "小白公益节点优选-小白公益节点优选-CF-104.24.0.0"
+      - "小白公益节点优选-小白公益节点优选-CF-108.162.192.0"
+      - "小白公益节点优选-小白公益节点优选-CF-131.0.72.0"
+      - "小白公益节点优选-小白公益节点优选-CF-141.101.64.0"
+      - "小白公益节点优选-小白公益节点优选-CF-162.158.0.0"
+      - "小白公益节点优选-小白公益节点优选-CF-172.64.0.0"
+      - "小白公益节点优选-小白公益节点优选-CF-173.245.48.0"
+      - "小白公益节点优选-小白公益节点优选-CF-188.114.96.0"
+      - "小白公益节点优选-小白公益节点优选-CF-190.93.240.0"
+      - "小白公益节点优选-小白公益节点优选-CF-197.234.240.0"
+      - "小白公益节点优选-小白公益节点优选-CF-198.41.128.0"
+      - DIRECT
+
+rules:
+  - GEOIP,LAN,DIRECT
+  - MATCH,小白公益节点优选
